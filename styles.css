@@ -1,0 +1,96 @@
+* {
+   box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(176, 166, 214);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 50%;
+    margin: 50px auto;
+}
+header {
+    text-align: center;
+    width: 100%;
+    
+}
+header h1 {
+    font-size: xx-large;
+
+}
+header p {
+    font-size: large;
+}
+section {
+    width: 100%;
+}
+#survey-form p{
+    font-size: large;
+    margin: 5px 0px; 
+}
+#survey-form {
+    width: 100%;
+    padding: 3em 2em;
+    color: white;
+    background-color: rgb(27, 27, 70);
+}
+#name, #email, #number {
+    width: 100%;
+    margin-top: 10px;
+    height: 2.5em;
+    margin-bottom: 2em;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#comment{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+#dropdown {
+    width: 100%;
+    padding: 1em;
+    margin-top: 10px;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 3px;
+}
+
+#option {
+    width: 100%;
+    padding: 1em;
+    margin-top: 10px;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 3px;
+}
+.radio-button {
+    margin: 5px 0px;
+}
+
+.checkbox-button {
+    margin: 5px 0px;
+}
+
+
+
+#submit {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: rgb(74, 204, 74);
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+}
